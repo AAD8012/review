@@ -1,0 +1,100 @@
+.container-carrusel {
+  margin: auto;
+  width: 99%;
+  text-align: center;
+
+  height: 741px;
+  margin-top: 102px;
+  margin-bottom: 64px;
+}
+
+.container-carrusel .title-car {
+  font-family: Futura;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-carrusel .sub-title {
+  font-family: Futura;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 55px;
+}
+.container-carrusel .carrusel {
+  display: flex;
+  align-items: center;
+  height: 462px;
+
+  margin-bottom: 75px;
+}
+
+.container-carrusel .carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container-carrusel .carrusel-item {
+  min-width: 355px;
+  max-width: 355px;
+  height: 462px;
+
+  cursor: pointer;
+  display: grid;
+  grid-template-rows: 2;
+  gap: 31px;
+  margin: 32px;
+}
+.container-carrusel .div {
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+.container-carrusel .cabecera-div-review {
+  text-align: start;
+  margin-bottom: 19px;
+}
+.container-carrusel .avatar-icono {
+  width: 41px;
+}
+.container-carrusel .star-icono {
+  width: 75px;
+}
+.container-carrusel .name-div-review {
+  margin-bottom: 21px;
+}
+.container-carrusel .name-div-review h5 {
+  font-size: 13px;
+  text-align: start;
+  font-weight: bold;
+}
+.container-carrusel .name-div-review span {
+  font-size: 13px;
+  text-align: start;
+  font-weight: lighter;
+}
+.container-carrusel .text-div-review h1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: start;
+}
+.container-carrusel .text-div-review h2 {
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: start;
+}
+.container-carrusel .text-logo {
+  font-size: 13px;
+  color: black;
+}
+
+@media (max-width: 390px) {
+  .container-carrusel .title-car {
+    font-size: 23px;
+  }
+  .container-carrusel .sub-title {
+    font-size: 23px;
+  }
+  .container-carrusel .container-carrusel {
+    margin-top: 64px;
+    margin-bottom: 74px;
+  }
+}
