@@ -41,8 +41,8 @@
   cursor: pointer;
   display: grid;
   grid-template-rows: 2;
-  gap: 31px;
-  margin: 32px;
+  gap: 24px;
+  margin: 15px;
 }
 .container-carrusel .div {
   padding: 10px;
